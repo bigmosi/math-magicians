@@ -63,6 +63,7 @@ body {
 .item18 {
   background-color: #e0e0e0;
   border: 1px solid #d3d3d3;
+  height: 65px;
 }
 
 .item4,
@@ -97,4 +98,8 @@ body {
 .item17 {
   grid-column: 1 / span 2;
   grid-row: 5;
+}
+
+.grid-item {
+  padding-top: 20px;
 }
