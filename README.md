@@ -2,7 +2,7 @@
 
 # Project Name
 
-> My Portfolio
+> Math Magicians
 -It's project built using HTML, CSS3 and react to see how github flow works.
 
 ## Built With
@@ -43,7 +43,7 @@ Install your favorite Text Editor
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/bigmosi/magicians/issues).
 
 ## Show your support
 
@@ -57,7 +57,5 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is MIT licensed.
 
-## Link to URL on browser
--URL:[browser]()
