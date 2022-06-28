@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family:
@@ -16,12 +22,80 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+
+.container {
+  width: 70%;
+  position: relative;
+  left: 18%;
+  margin-top: 20px;
+}
+
+.result {
+  text-align: right;
+  padding: 16px 4px 16px 16px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #858694;
+  color: #e0e0e0;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+  margin-top: -10px;
+}
+
+.item1,
+.item2,
+.item3,
+.item5,
+.item6,
+.item7,
+.item9,
+.item10,
+.item11,
+.item13,
+.item14,
+.item15,
+.item17,
+.item18 {
+  background-color: #e0e0e0;
+  border: 1px solid #d3d3d3;
+}
+
+.item4,
+.item8,
+.item12,
+.item16,
+.item19 {
+  background-color: #f5913e;
+  border: 1px solid #d3d3d3;
+}
+
+.item1 {
+  grid-column: 1 / span 1;
+  grid-row: 1;
+}
+
+.item2 {
+  grid-column: 2 / span 1;
+  grid-row: 1;
+}
+
+.item3 {
+  grid-column: 3 / span 1;
+  grid-row: 1;
+}
+
+.item4 {
+  grid-column: 4 / span 1;
+  grid-row: 1;
+}
+
+.item17 {
+  grid-column: 1 / span 2;
+  grid-row: 5;
 }
