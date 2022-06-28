@@ -31,7 +31,7 @@ class Calculator extends React.Component {
       },
       {
         id: 6,
-        text: '8',
+        symbol: '8',
       },
       {
         id: 7,
