@@ -104,14 +104,14 @@ class Calculator extends React.Component {
           <section className="grid-container">
             {items.map((item, index) => (
               <button
-              type='button'
-              key={item.id} 
-              className={`grid-item item${index + 1}`}
-              onClick={this.handleClick}
+                type="button"
+                key={item.id} 
+                className={`grid-item item${index + 1}`}
+                onClick={this.handleClick}
               >
                 {item.symbol}
               </button>
-            ))}
+          ))}
           </section>
         </section>
       </>
