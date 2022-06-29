@@ -7,14 +7,14 @@ class Calculator extends React.Component {
     super(props);
     this.state = {
       total: null,
-      next: null
+      next: null,
     };
     this.handleClick = this.handleClick.bind(this);
   }
 
   handleClick(e) {
     this.setState((state) => calculate(state, e.target.innerText));
-  };
+  }
 
   render() {
     const items = [
@@ -96,7 +96,7 @@ class Calculator extends React.Component {
       },
     ];
 
-    const {total, next} = this.state;
+    const { total, next } = this.state;
     return (
       <>
         <section className="container">
