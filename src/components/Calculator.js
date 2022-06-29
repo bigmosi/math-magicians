@@ -105,7 +105,7 @@ class Calculator extends React.Component {
             {items.map((item, index) => (
               <button
                 type="button"
-                key= { item.id } 
+                key={item.id} 
                 className={`grid-item item${index + 1}`}
                 onClick={this.handleClick}
               >
