@@ -1,11 +1,20 @@
 import React from 'react';
+import calculate from '../logic/calculator';
 
 // eslint-disable-next-line react/prefer-stateless-function
 class Calculator extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      total: null,
+      next: null
+    };
+    this.handleClick = this.handleClick.bind(this);
   }
+
+  handleClick(e) {
+    this.setState((state) => calculate(state, e.target.innerText));
+  };
 
   render() {
     const items = [
@@ -51,7 +60,7 @@ class Calculator extends React.Component {
       },
       {
         id: 11,
-        text: '6',
+        symbol: '6',
       },
       {
         id: 12,
@@ -86,15 +95,22 @@ class Calculator extends React.Component {
         symbol: '=',
       },
     ];
+
+    const {total, next} = this.state;
     return (
       <>
         <section className="container">
-          <div className="result">0</div>
+          <div className="result">{next || total || 0}</div>
           <section className="grid-container">
             {items.map((item, index) => (
-              <div key={item.id} className={`grid-item item${index + 1}`}>
+              <button
+              type='button'
+              key={item.id} 
+              className={`grid-item item${index + 1}`}
+              onClick={this.handleClick}
+              >
                 {item.symbol}
-              </div>
+              </button>
             ))}
           </section>
         </section>
