@@ -22,10 +22,37 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.whole-container {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #141414;
+  height: 100vh;
+}
+
+.whole-container h6 {
+  margin-top: 20px;
+  margin-left: 30px;
+  color: #fff;
+}
+
+.text-container {
+  background-color: #141414;
+  height: 100vh;
+  padding-top: 5px;
+}
+
+.text-container h4 {
+  color: white;
+}
+
+.text-container p {
+  color: white;
+}
+
 .container {
-  width: 70%;
+  width: 50%;
   position: relative;
-  left: 18%;
   margin-top: 20px;
 }
 
@@ -102,4 +129,18 @@ body {
 
 .grid-item {
   padding-top: 20px;
+}
+
+.container li {
+  list-style-type: none;
+}
+
+.text-container p {
+   margin-top: 20px;
+   text-align: center;
+}
+
+.text-container h4 {
+  margin-left: 10%;
+  margin-top: 20px;
 }
