@@ -42,14 +42,6 @@ body {
   padding-top: 5px;
 }
 
-.text-container h4 {
-  color: white;
-}
-
-.text-container p {
-  color: white;
-}
-
 .container {
   width: 50%;
   position: relative;
@@ -136,11 +128,13 @@ body {
 }
 
 .text-container p {
-   margin-top: 20px;
-   text-align: center;
+  margin-top: 20px;
+  text-align: center;
+  color: white;
 }
 
 .text-container h4 {
   margin-left: 10%;
   margin-top: 20px;
+  color: white;
 }
