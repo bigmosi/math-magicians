@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #141414;
+}
+
+.subcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.subcontainer li {
+  list-style-type: none;
+  border-width: 4px;
+  margin-top: 20px;
+}
+
+.li {
+  border-left: 3px solid #000 !important;
+  border-color: #fff !important;
+  padding-left: 20px;
+  margin: 10px;
+}
+
+.container h2 {
+  text-align: center;
+  margin-top: 20px;
+  position: relative;
+  left: 10%;
+  color: white;
+  font-size: 40px;
+}

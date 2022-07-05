@@ -89,7 +89,8 @@ const Calculator = () => {
 
   const { total, next } = obj;
   return (
-    <>
+    <div className="whole-container">
+      <h6>Let&apos;s do some math!</h6>
       <section className="container">
         <div className="result">{next || total || 0}</div>
         <section className="grid-container">
@@ -105,7 +106,7 @@ const Calculator = () => {
           ))}
         </section>
       </section>
-    </>
+    </div>
   );
 };
 

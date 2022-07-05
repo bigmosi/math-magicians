@@ -1,0 +1,12 @@
+.text {
+  text-align: center;
+  margin-top: 50px;
+  color: #fff;
+}
+
+.container {
+  background-color: #141414;
+  height: 100vh;
+  padding-top: 20px;
+  width: 100%;
+}
