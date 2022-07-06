@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="whole-container"
+>
+  <h6>
+    Let's do some math!
+  </h6>
+  <section
+    className="container"
+  >
+    <div
+      className="result"
+    >
+      0
+    </div>
+    <section
+      className="grid-container"
+    >
+      <button
+        className="grid-item item1"
+        onClick={[Function]}
+        type="button"
+      >
+        AC
+      </button>
+      <button
+        className="grid-item item2"
+        onClick={[Function]}
+        type="button"
+      >
+        +/-
+      </button>
+      <button
+        className="grid-item item3"
+        onClick={[Function]}
+        type="button"
+      >
+        %
+      </button>
+      <button
+        className="grid-item item4"
+        onClick={[Function]}
+        type="button"
+      >
+        ÷
+      </button>
+      <button
+        className="grid-item item5"
+        onClick={[Function]}
+        type="button"
+      >
+        7
+      </button>
+      <button
+        className="grid-item item6"
+        onClick={[Function]}
+        type="button"
+      >
+        8
+      </button>
+      <button
+        className="grid-item item7"
+        onClick={[Function]}
+        type="button"
+      >
+        9
+      </button>
+      <button
+        className="grid-item item8"
+        onClick={[Function]}
+        type="button"
+      >
+        x
+      </button>
+      <button
+        className="grid-item item9"
+        onClick={[Function]}
+        type="button"
+      >
+        4
+      </button>
+      <button
+        className="grid-item item10"
+        onClick={[Function]}
+        type="button"
+      >
+        5
+      </button>
+      <button
+        className="grid-item item11"
+        onClick={[Function]}
+        type="button"
+      >
+        6
+      </button>
+      <button
+        className="grid-item item12"
+        onClick={[Function]}
+        type="button"
+      >
+        -
+      </button>
+      <button
+        className="grid-item item13"
+        onClick={[Function]}
+        type="button"
+      >
+        1
+      </button>
+      <button
+        className="grid-item item14"
+        onClick={[Function]}
+        type="button"
+      >
+        2
+      </button>
+      <button
+        className="grid-item item15"
+        onClick={[Function]}
+        type="button"
+      >
+        3
+      </button>
+      <button
+        className="grid-item item16"
+        onClick={[Function]}
+        type="button"
+      >
+        +
+      </button>
+      <button
+        className="grid-item item17"
+        onClick={[Function]}
+        type="button"
+      >
+        0
+      </button>
+      <button
+        className="grid-item item18"
+        onClick={[Function]}
+        type="button"
+      >
+        .
+      </button>
+      <button
+        className="grid-item item19"
+        onClick={[Function]}
+        type="button"
+      >
+        =
+      </button>
+    </section>
+  </section>
+</div>
+`;
