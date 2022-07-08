@@ -31,6 +31,10 @@ Install your favorite Text Editor
 ### Install
 
 
+## Live demo
+[live demo link](https://amos-math-magicians.netlify.app)
+[live demo link](https://amos-react-math-magicians.herokuapp.com/)
+
 ## Authors
 
 👤 **Kinyera Amos**
